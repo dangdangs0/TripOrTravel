@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:onClick="onClick_login"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="154dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/applesdgothicneol"
+        android:onClick="onClick_login"
+        android:text="로그인"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="154dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/applesdgothicneol"
+        android:onClick="onClick_join"
+        android:text="회원가입"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="271dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorLink="#5C5C5C"
+        android:textSize="24sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/userpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="341dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:text=""
+        android:textSize="24sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

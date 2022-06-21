@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothActivity">
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/applesdgothicneom"
+        android:text="status"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_paired"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/applesdgothicneom"
+        android:onClick="onClickButtonPaired"
+        android:text="Paired Devices"
+        android:textColor="#FFFFFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_status" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/applesdgothicneom"
+        android:onClick="onClickButtonSearch"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_paired" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/applesdgothicneom"
+        android:onClick="onClickButtonSend"
+        android:text="Send"
+        android:textColor="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_search" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/applesdgothicneom"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_send" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="355dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/applesdgothicneom"
+        android:onClick="onClickButtonNext"
+        android:text="->"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".JoinActivity">
+
+    <EditText
+        android:id="@+id/new_id"
+        android:layout_width="269dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/rounded_box_text"
+        android:ems="10"
+        android:hint=" 아이디를 입력해주세요"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/new_pw"
+        android:layout_width="269dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/rounded_box_text"
+        android:ems="10"
+        android:hint=" 비밀번호를 입력해주세요"
+        android:inputType="textPassword"
+        android:fontFamily="@font/applesdgothicneol"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/new_pw2"
+        android:layout_width="269dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:hint=" 같은 비밀번호를 입력해주세요"
+        android:inputType="textPassword"
+        android:fontFamily="@font/applesdgothicneol"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_box_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="87dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="92dp"
+        android:text="아이디"
+        android:textAllCaps="false"
+        android:textColor="#202020"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="184dp"
+        android:text="비밀번호"
+        android:textAllCaps="false"
+        android:textColor="#202020"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="156dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="280dp"
+        android:text="비밀번호 확인"
+        android:textAllCaps="false"
+        android:textColor="#202020"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="376dp"
+        android:text="관심지역"
+        android:textAllCaps="false"
+        android:textColor="#202020"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/button_background"
+        android:onClick="onClick_idcheck"
+        android:text="중복확인"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="114dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/button_background"
+        android:onClick="insert"
+        android:text="확인"
+        android:fontFamily="@font/applesdgothicneol"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="114dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/button_background"
+        android:onClick="onClick_cancel"
+        android:text="취소"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/area"
+        android:layout_width="256dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="416dp"
+        android:entries="@array/areas"
+        android:textSize="20sp"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

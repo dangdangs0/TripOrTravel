@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.PreferenceCategory
+        android:title="환경설정"
+        android:fontFamily="@font/applesdgothicneom">
+
+        <androidx.preference.EditTextPreference
+            android:key="change_password"
+            android:fontFamily="@font/applesdgothicneom"
+            android:title="비밀번호 변경" />
+
+        <androidx.preference.ListPreference
+            android:entries="@array/areas"
+            android:entryValues="@array/areas"
+            android:key="interest_area_list"
+            android:summary="관심지역"
+            android:fontFamily="@font/applesdgothicneom"
+            android:title="관심지역 변경" />
+
+        <Preference
+            android:key="logout"
+            android:fontFamily="@font/applesdgothicneom"
+            android:title="로그아웃" />
+
+        <Preference
+            android:key="delete_user"
+            android:fontFamily="@font/applesdgothicneom"
+            android:title="회원탈퇴" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="574dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/applesdgothicneom"
+                android:inputType="textLongMessage" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/applesdgothicneom"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:text="검색" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/distance" />
+
+                    <TextView
+                        android:id="@+id/tvDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/applesdgothicneom"
+                        android:text="0 m" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/applesdgothicneom"
+                        android:text="0 mins" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbsatelit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@android:color/white"
+                android:backgroundTintMode="screen"
+                android:src="@drawable/ic_satellite_on" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbgps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/fbsatelit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="90dp"
+                android:backgroundTint="@android:color/white"
+                android:backgroundTintMode="screen"
+                android:src="@drawable/ic_my_gps" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/fbsatelit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="160dp"
+                android:backgroundTint="@android:color/white"
+                android:backgroundTintMode="screen"
+                android:src="@drawable/ic_meal" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</fragment>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>전체</item>
+        <item>산</item>
+        <item>절</item>
+        <item>전망대</item>
+        <item>포토존</item>
+        <item>문화재</item>
+        <item>역사</item>
+        <item>관람</item>
+        <item>바다</item>
+        <item>힐링</item>
+        <item>기념물</item>
+        <item>체험</item>
+        <item>액티비티</item>
+        <item>맛집탐방</item>
+        <item>식물원</item>
+        <item>경치</item>
+        <item>온천</item>
+        <item>워터파크</item>
+        <item>테마파크</item>
+        <item>유네스코</item>
+        <item>동물원</item>
+        <item>미술관</item>
+        <item>자연</item>
+        <item>도보코스</item>
+        <item>박물관</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PickDateActivity">
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="119dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="643dp"
+        android:layout_marginEnd="252dp"
+        android:fontFamily="@font/applesdgothicneom"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/button_background"
+        android:onClick="OnClickOkButton"
+        android:text="확인"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="119dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="641dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/button_background"
+        android:onClick="OnClickCancelButton"
+        android:text="취소"
+        android:fontFamily="@font/applesdgothicneom"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="548dp"
+        android:text="시작일"
+        android:textColor="#1C1C1C"
+        android:fontFamily="@font/applesdgothicneom"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <DatePicker
+        android:id="@+id/startDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="453dp"
+        android:fontFamily="@font/applesdgothicneol"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="303dp"
+        android:fontFamily="@font/applesdgothicneom"
+        android:text="종료일"
+        android:textColor="#1C1C1C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <DatePicker
+        android:id="@+id/endDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="211dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:fontFamily="@font/applesdgothicneol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
