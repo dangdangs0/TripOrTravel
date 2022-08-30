@@ -27,7 +27,7 @@ public class DirectionFinder {
     private DirectionFinderListener listener;
     private String origin;
     private String destination;
-    public static final String google_api_key="AIzaSyAZDeAnH8SlnEF2AVe-Xl0l8I-V6shL4fg";
+    public static final String google_api_key="GOOGLE_API_KEYS";
 
     public DirectionFinder(DirectionFinderListener listener, String origin, String destination) {
         this.listener = listener;
