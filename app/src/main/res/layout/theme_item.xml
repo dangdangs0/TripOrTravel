@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:gravity="center"
-        android:fontFamily="@font/applesdgothicneom"
+        android:fontFamily=""
         android:text="테마"/>
 
 </LinearLayout>
