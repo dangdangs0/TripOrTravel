@@ -45,7 +45,7 @@
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:fontFamily="@font/applesdgothicneom"
+                    android:fontFamily=""
                     android:text="Area"/>
                 <TextView
                     android:id="@+id/sigungu_name"
@@ -54,7 +54,7 @@
                     android:textSize="14dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:fontFamily="@font/applesdgothicneom"
+                    android:fontFamily=""
                     android:text="sigungu"/>
                 <TextView
                     android:id="@+id/tourspot_name"
@@ -63,7 +63,7 @@
                     android:textSize="14dp"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:fontFamily="@font/applesdgothicneom"
+                    android:fontFamily=""
                     android:text="tour_spot"/>
 
                 <ToggleButton
