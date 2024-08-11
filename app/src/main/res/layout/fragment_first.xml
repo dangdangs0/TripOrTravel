@@ -12,7 +12,7 @@
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/applesdgothicneom"
+        android:fontFamily=""
         app:mcv_selectionColor="@color/normalColor"
         app:mcv_showOtherDates="all"
         />
@@ -26,7 +26,7 @@
         android:id="@+id/schedulelist"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:fontFamily="@font/applesdgothicneoh"
+        android:fontFamily=""
         android:gravity="center_vertical"
         android:text="Schedule"
         android:textSize="24sp"
@@ -35,7 +35,7 @@
     <ListView
         android:id="@+id/listview_custom"
         android:layout_width="match_parent"
-        android:fontFamily="@font/applesdgothicneom"
+        android:fontFamily=""
         android:dividerHeight="2dp"
         android:divider="@drawable/button_background"
         android:layout_height="wrap_content"/>  <!--일정목록-->
