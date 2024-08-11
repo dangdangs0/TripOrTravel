@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="76dp"
             android:layout_marginTop="52dp"
-            android:fontFamily="@font/applesdgothicneom"
+            android:fontFamily=""
             android:text="관심지역"
             android:textColor="#323232"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="27dp"
             android:layout_marginTop="113dp"
-            android:fontFamily="@font/applesdgothicneoh"
+            android:fontFamily=""
             android:text="Theme"
             android:textColor="#323232"
             android:textSize="24sp"
@@ -75,7 +75,7 @@
 <!--    <ListView 2022.05.16-->
 <!--        android:id="@+id/listview_custom"-->
 <!--        android:layout_width="match_parent"-->
-<!--        android:fontFamily="@font/applesdgothicneol"-->
+<!--        android:fontFamily="""-->
 <!--        android:layout_height="wrap_content"/>-->
 
 
