@@ -7,20 +7,20 @@
         android:enabled="true"
         android:icon="@drawable/calender"
         android:title="일정"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:showAsAction="always" />
     <item
         android:id="@+id/second_tab"
         android:enabled="true"
         android:icon="@drawable/backpack"
         android:title="투어"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:showAsAction="always" />
     <item
         android:id="@+id/third_tab"
         android:enabled="true"
         android:icon="@drawable/setting"
         android:title="설정"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:showAsAction="always" />
 </menu>
