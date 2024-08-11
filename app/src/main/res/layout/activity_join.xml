@@ -18,7 +18,7 @@
         android:hint=" 아이디를 입력해주세요"
         android:inputType="textPersonName"
         android:textSize="20sp"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,7 +32,7 @@
         android:ems="10"
         android:hint=" 비밀번호를 입력해주세요"
         android:inputType="textPassword"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +46,7 @@
         android:ems="10"
         android:hint=" 같은 비밀번호를 입력해주세요"
         android:inputType="textPassword"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         android:textSize="20sp"
         android:background="@drawable/rounded_box_text"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
         android:textAllCaps="false"
         android:textColor="#202020"
         android:textSize="20sp"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,7 +78,7 @@
         android:textAllCaps="false"
         android:textColor="#202020"
         android:textSize="20sp"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -92,7 +92,7 @@
         android:textAllCaps="false"
         android:textColor="#202020"
         android:textSize="20sp"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -106,7 +106,7 @@
         android:textAllCaps="false"
         android:textColor="#202020"
         android:textSize="20sp"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -121,7 +121,7 @@
         android:text="중복확인"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -134,7 +134,7 @@
         android:background="@drawable/button_background"
         android:onClick="insert"
         android:text="확인"
-        android:fontFamily="@font/applesdgothicneol"
+        android:fontFamily=""
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
