@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
         <item name="android:windowFullscreen">true</item>
         <!--font 적용-->
-        <item name="android:fontFamily">@font/changefont</item>
+        <item name="android:fontFamily"></item>
         <item name="colorAccent">@color/cursorColor</item>
         <item name="colorControlNormal">@color/normalColor</item>
     </style>
